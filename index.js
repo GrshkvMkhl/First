@@ -16,7 +16,7 @@ bot.onText(/\/hell/, (msg, match) => {
   const resp = match[1]; // the captured "whatever"
 
   // send back the matched "whatever" to the chat
-  bot.sendMessage(chatId, 'Какая валюта?',{
+  bot.sendMessage(chatId, 'Какая валюта?....',{
   reply_markup: {
     inline_keyboard:[
       [
@@ -42,6 +42,8 @@ bot.onText(/\/hell/, (msg, match) => {
 }
   );
 });
+//7777777777777
+//66666
 
 function formatDate(date) {
 
